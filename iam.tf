@@ -4,7 +4,7 @@ resource "aws_iam_user" "bob" {
 
 resource "aws_iam_group" "sysusers" {
   name = "sysusers"
-  path = "/users/"
+  path = "/"
 }
 
 resource "aws_iam_user_group_membership" "example1" {
