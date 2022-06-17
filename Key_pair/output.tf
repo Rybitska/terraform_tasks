@@ -9,3 +9,7 @@ output "id" {
 output "region" {
   value = "us-east-2"
 }
+
+output "keys_arn" {
+  value = aws_key_pair.ilearning.key_arn
+}
